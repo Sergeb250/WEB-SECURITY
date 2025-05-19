@@ -50,6 +50,7 @@ Domains mapped:
 portfolio.auca.ac.rw → 192.168.1.101
 auca.ac.rw → 192.168.1.102
 ```
+![auca](https://github.com/Sergeb250/WEB-SECURITY/blob/ac6bad1507ce6fa9d7a6e77946ca25cb9ee24b62/SCREEN/Screenshot%202025-05-03%20210228.png?raw=true)
 Tested using ping and browser.
 2. 🌍 Web Servers Setup
 Apache and NGINX were configured to serve websites on the two virtual IPs.
@@ -62,6 +63,8 @@ Apache and NGINX were configured to serve websites on the two virtual IPs.
     SSLCertificateKeyFile /etc/ssl/private/privkey.pem
 </VirtualHost>
 ```
+![auca](https://github.com/Sergeb250/WEB-SECURITY/blob/ac6bad1507ce6fa9d7a6e77946ca25cb9ee24b62/SCREEN/Screenshot%202025-05-03%20213309.png?raw=true)
+![apache ](https://github.com/Sergeb250/WEB-SECURITY/blob/ac6bad1507ce6fa9d7a6e77946ca25cb9ee24b62/SCREEN/Screenshot%20(67).png?raw=true)
 
 🔹 NGINX Server Block
 ```
@@ -81,6 +84,8 @@ openssl req -x509 -nodes -days 365 \
   -keyout /etc/ssl/private/privkey.pem \
   -out /etc/ssl/certs/cert.pem
 ```
+![WAF Screenshot](https://github.com/Sergeb250/WEB-SECURITY/blob/ac6bad1507ce6fa9d7a6e77946ca25cb9ee24b62/SCREEN/Screenshot%202025-05-03%20213228.png?raw=true)
+
 Deployed on both Apache and NGINX.
 🛡️ Web Application Firewall (WAF)
 ✅ ModSecurity Installation
@@ -116,6 +121,15 @@ modsecurity_rules_file /etc/nginx/modsec/main.conf;
 ```
 
 
+![mod ](
+https://github.com/Sergeb250/WEB-SECURITY/blob/ac6bad1507ce6fa9d7a6e77946ca25cb9ee24b62/SCREEN/Screenshot%202025-05-19%20115038.png?raw=true)
+
+![out](  https://github.com/Sergeb250/WEB-SECURITY/blob/ac6bad1507ce6fa9d7a6e77946ca25cb9ee24b62/SCREEN/Screenshot%202025-05-19%20115647.png?raw=true)
+#ADDITIONAL SET UP FIREWALL
+
+
+
+![fire](https://github.com/Sergeb250/WEB-SECURITY/blob/ac6bad1507ce6fa9d7a6e77946ca25cb9ee24b62/SCREEN/Screenshot%202025-05-16%20133200.png?raw=true)
 Apache2, NGINX
 ModSecurity v3
 OWASP CRS
@@ -130,11 +144,11 @@ Automate deployment with Ansible or Bash scripts
 Add GeoIP blocking, Rate Limiting, DoS Mitigation
 Configure audit logging and alerts
 
+
+
 🤝 Contributions
 Feel free to fork the repo and submit PRs to improve configuration, add automation, or enhance documentation.
-📜 License
-This project is for academic and educational purposes only.
-Use at your own risk. No warranties provided.
+
 🙋 Contact
 Serge Benit
 Cybersecurity Researcher
