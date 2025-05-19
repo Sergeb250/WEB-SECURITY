@@ -1,0 +1,1 @@
+SecRule ARGS "<script>" "id:12345,phase:2,deny,status:403,msg:'XSS Attack Detected'"
