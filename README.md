@@ -148,6 +148,7 @@ Configure audit logging and alerts
 
 🤝 Contributions
 Feel free to fork the repo and submit PRs to improve configuration, add automation, or enhance documentation.
+ **( read pfd in repo)** for more understanding
 
 🙋 Contact
 Serge Benit
