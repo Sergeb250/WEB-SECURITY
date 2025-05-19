@@ -125,33 +125,49 @@ modsecurity_rules_file /etc/nginx/modsec/main.conf;
 https://github.com/Sergeb250/WEB-SECURITY/blob/ac6bad1507ce6fa9d7a6e77946ca25cb9ee24b62/SCREEN/Screenshot%202025-05-19%20115038.png?raw=true)
 
 ![out](  https://github.com/Sergeb250/WEB-SECURITY/blob/ac6bad1507ce6fa9d7a6e77946ca25cb9ee24b62/SCREEN/Screenshot%202025-05-19%20115647.png?raw=true)
+
 #ADDITIONAL SET UP FIREWALL
 
 
 
 ![fire](https://github.com/Sergeb250/WEB-SECURITY/blob/ac6bad1507ce6fa9d7a6e77946ca25cb9ee24b62/SCREEN/Screenshot%202025-05-16%20133200.png?raw=true)
+
+
 Apache2, NGINX
+
 ModSecurity v3
+
 OWASP CRS
+
 OpenSSL
+
 curl, tcpdump, iptables
+
 Kali Linux base system
 
 📌 Future Improvements
 
 Enable blocking mode in ModSecurity
+
 Automate deployment with Ansible or Bash scripts
+
 Add GeoIP blocking, Rate Limiting, DoS Mitigation
+
 Configure audit logging and alerts
 
 
 
 🤝 Contributions
 Feel free to fork the repo and submit PRs to improve configuration, add automation, or enhance documentation.
+
  **( read pfd in repo)** for more understanding
 
 🙋 Contact
+
 Serge Benit
+
 Cybersecurity Researcher
+
 📧 hacksergeb@gmail.com
+
 📍 Kigali, Rwanda
